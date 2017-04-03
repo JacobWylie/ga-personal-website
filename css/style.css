@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 1.8rem;
+	letter-spacing: .18rem;
+	line-height: 1.75rem;
+	margin: 0 auto;
+}
+
+#bg {
+	background:url("../img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+img	{
+	border-radius: 50%;
+	border: 8px solid white;
+	width: 12rem;
+	margin-top: 8rem;
+}
+
+input[type="email"] {
+	display: block;
+	margin: 1em auto; 
+	text-align: center;
+	letter-spacing: .1rem;
+	font-size: 1.1rem;
+	border-radius: 10px;
+	outline: none;
+}
+
+input[type="submit"] {
+	color: white;
+	background-color: black;
+	border-radius: 20px;
+	border-style: none;
+	padding: .9rem;
+	outline: none;
+	font-family: helvetica;
+	font-size: 1.4rem;
+	letter-spacing: .18rem;
+	line-height: .8rem;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: rgba(42, 38, 38, 1);
+	color: lightgrey;
+}
